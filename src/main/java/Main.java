@@ -3,7 +3,7 @@ public class Main {
         BodyMassIndexService service = new BodyMassIndexService();
         double weight = 50;
         double heightSm = 150;
-        double BMI = service.calculate(weight, heightSm);
-        System.out.printf("%.1f",BMI);
+        double bmi = service.calculate(weight, heightSm);
+        System.out.printf("%.1f",bmi);
     }
 }
